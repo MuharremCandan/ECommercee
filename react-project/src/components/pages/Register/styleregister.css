@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/src/fonts/RolexLight.woff2");
+}
+
+.page {
+    height: 100vh;
+    width: 100%;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover {
+    background-color: white;
+    width: 55em;
+    height: 50em;
+    position: relative;
+    border-radius: 0.2em;
+    box-shadow: 0 0.05em 0.25em rgb(156  , 156,  156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.altlogin {
+    width: 80%;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 1em;
+}
+.altlogin div {
+    width: 45%;
+    height: 90%;
+    border: 0.25em;
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+}
+.google{
+    background-image: url("/src/icons/google.png");
+    border-radius: 1em;
+
+}
+.facebook{
+    background-image: url("/src/icons/facebook.png");
+    border-radius: 1em;
+    
+}
+
+input{
+    border: none;
+    background-color: rgb(229, 226, 226);
+    height: 4em;
+    width: 80%;
+    border-radius: 0.5em;
+    text-align: center;
+    padding: 2em;
+}
+input:focus{
+    outline-color: rgb(32, 177, 255);
+}
+.loginbtn{
+    width: 40%;
+    height: 3em;
+    background-color: rgb(32, 177, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+.loginbtn:hover{
+    transform: scale(1.25);
+}
+
+.text {
+    position: relative;
+    bottom: 0em;
+}
+.hide {
+    position: absolute;
+    transform: scale(0);
+}
+
+.login-popup {
+    position: absolute;
+    height: 30em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 00.25em;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    transform: scale(1);
+    transition: 1.3s;
+}

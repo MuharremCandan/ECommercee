@@ -1,0 +1,17 @@
+.infos{
+    width: 65%;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 8em; 
+    margin-left: 20em;
+}
+button {
+    position: sticky;
+    padding: 2px;
+}
+.details {
+    margin-top: 50px;
+}
+.priceinfos {
+    float: right;
+}

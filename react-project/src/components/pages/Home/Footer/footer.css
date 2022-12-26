@@ -1,0 +1,136 @@
+.footer{
+    display: grid;
+    place-items: center;
+    padding: 7rem 2rem;
+    background: #F5FBFF;
+}
+.footer-container{
+    max-width: 1250px;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-column{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    color: #FD955D;
+}
+.column-content h2{
+    color: #000000;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.column-content p{
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Nunito Sans', sans-serif;
+}
+.column-content ul{
+    margin-top: 3rem !important
+}
+.column-content .footer-link{
+    display: flex;
+}
+.column-content .footer-link li{
+    margin: 0 30px 0 0;
+    color: #919191;
+}
+.column-content .footer-link li a{
+    font-size: 15px;
+    font-weight: 400;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    background: transparent;
+    border-radius: 50%;
+    margin-right: 7px;
+    line-height: 42px !important;
+    border: 1px solid #E8E8E8;
+}
+.column-content .footer-link li a i{
+    font-size: 20px;
+    color: #919191;
+    color: #FD955D;
+}
+.column-content ul li{
+    padding-bottom: 10px;
+}
+.column-content ul li a{
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Nunito Sans', sans-serif;
+}
+.column-content ul li a span{
+    color: #FD955D; 
+    padding-right: 5px;
+}
+.column-content ul li span{
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Nunito Sans', sans-serif;
+}
+.column-content ul .list{
+    display: table;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.list .number{
+    color: #FD955D; 
+    font-family: 'Nunito Sans', sans-serif;
+}
+.list .email{
+    color: #FD955D; 
+    font-family: 'Nunito Sans', sans-serif;
+}
+.column-content ul .footer-icon{
+    display: table-cell;
+    vertical-align: top;
+    width: 40px;
+    font-size: 18px; 
+    padding-top: 2px;
+    color: #FD955D; 
+}
+.column-content ul .text{
+    display: table-cell;
+    vertical-align: top;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.footer-2{
+    padding: 6rem 0;
+    display: grid;
+    place-items: center;
+}
+.social-media-f{
+    display: flex;
+    position: absolute;
+    right: 62em;
+    padding: 10px;
+}
+.social-media-t{
+    display: flex;
+    position: absolute;
+    right: 57em;
+    padding: 10px;
+}
+.social-media-i{
+    display: flex;
+    position: absolute;
+    right: 52em;
+    padding: 10px;
+}
+@media screen and (max-width:768px){
+    .footer{
+        display: flex;
+        padding: 3rem 2rem;
+    }
+    .footer-row{
+       display: flex;
+       flex-direction: column;
+    }
+    .footer-column{
+        padding-top: 2rem;
+    }
+}

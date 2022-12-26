@@ -1,0 +1,113 @@
+.services{
+    padding: 3rem 3rem 7rem 3rem;
+    display: grid;
+    place-items: center;
+    background-color: #ECF0F1  ;
+}
+.heading{
+    text-align: center;  
+}
+.heading h2{
+    font-size: 2.2rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif; 
+    padding-top: 2rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+.heading span{
+    display: inline-block;
+    margin-bottom: 0;
+    color: #fdae5c;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position:relative;
+    font-family: "Poppins", sans-serif;
+}
+.heading span::before{
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    content: '';
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 50px;
+    height: 1px;
+    background: #fdae5c;
+}
+.heading span::after{
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    content: '';
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 50px;
+    height: 1px;
+    background: #fdae5c;
+}
+.services-row{
+    padding-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.services-card{
+    padding-left: 30px;
+    padding-right: 16px;
+    max-width: 25%;
+}
+.services-column{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    text-align: center;
+}
+.services-content h3{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.services-content p{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #666666;
+    line-height: 1.8;
+    padding: 2em;
+}
+@media screen and (max-width:1024px) {
+    .services{
+        padding-bottom: 4rem;
+    }
+    .services-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-card{
+        padding-bottom: 2rem;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:768px){
+    .services{
+        padding: 1rem 1rem 2rem 1rem ;
+        display: grid;
+        place-items: center;
+    }
+    .heading h2{
+        font-size: 1.7rem;
+    }
+    .services-card{
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 100%;
+    }
+}

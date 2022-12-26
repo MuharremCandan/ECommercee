@@ -1,0 +1,29 @@
+.nav {
+    background-color: white;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    justify-content: center;
+}
+.nav .left {
+    align-items: center;
+    width: 50%;
+}
+.nav .right {
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 5px;
+    
+}
+.second{
+    height: 20em;
+    background-color: darkcyan;
+    margin-top: 15px;
+    text-align: center;
+}
+.margin {
+    margin-bottom: 45px;
+}
